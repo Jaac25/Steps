@@ -1,0 +1,13 @@
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.w-70{
+    width: 70%;
+    height: 100vh;
+}

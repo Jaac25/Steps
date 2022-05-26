@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 3px 2px 2px black;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.red:hover{
+    background-color: rgb(249, 110, 110);
+    color: black;
+}
+
+.blue{
+    background-color: aqua;
+    color: black;
+}
+
+.blue:hover{
+    background-color: rgb(0, 163, 163);
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+}

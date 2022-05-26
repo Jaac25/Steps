@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.w-100{
+    width: 100%;
+    height: 100vh;
+}
+
+.w-70{
+    width: 70%;
+    height: 100vh;
+}
+
+.w-50{
+    width: 50%;
+    height: 100vh;
+}
+
+.w-30{
+    width: 30%;
+    height: 100vh;
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) { 
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
